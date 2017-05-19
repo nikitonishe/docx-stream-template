@@ -29,6 +29,7 @@ function docxTemplate(props, docx) {
     rs.removeAllListeners();
     docx.destroy();
   });
+  
   return archive;
 }
 
